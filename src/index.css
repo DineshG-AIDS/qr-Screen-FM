@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Custom;
+  src: url("./assert/Outfit-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Custom1;
+  src: url("./assert/Outfit-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.font-custom {
+  font-family: "Custom", sans-serif;
+}
+.font-custom1 {
+  font-family: "Custom1", sans-serif;
+}
